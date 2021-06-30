@@ -1,0 +1,171 @@
+body{
+	margin: 0;/*внешние отступы*/
+	font-family: arial,sans-serif;/*внешние отступы*/
+	font-size:16px;/*размер текста*/
+	line-height: 1.5;/*внешние отступы*/
+}
+.menu{
+	width: 150px;/*ширина*/
+	font-weight: bold;/*ширина текста*/
+	color: #fff;/*цвет текста*/
+	background-color: #45105d;/*цвет фона*/
+	border-top-right-radius:15px;/*123*/
+	border-bottom-right-radius:15px;/*123*/
+	padding: 10px 20px;/*внутренние отступы*/
+	position: fixed;/*посиция зафиксировать*/
+	top: 0;/*отступ сверху*/
+	left:0;/*отступ слева*/
+	height: 100%;/*123*/
+}
+.menu a{
+	width: 100%;/*ширина*/
+	display: block;/*123*/
+	padding: 8px 16px;/*внутренние отступы*/
+	text-decoration: solid;/*декорирование текста*/
+	color: white;/*цвет текста*/
+	box-sizing: border-box;/*123*/
+}
+.menu a:hover{
+	color: black;/*цвет текста*/
+	background-color: #fff;/*цвет фона*/
+}
+.main{
+	margin-left: 365px;/*внешние отступы слева*/
+	margin-right: 40px;/*внешние отступы справа*/
+	margin-top: 80px;/*внешние отступы сверху*/
+}
+h1{
+	font-size: 64px;/*размер текста*/
+	font-weight: 400;/*ширина текста*/
+}
+h2{
+	color: #45015d;/*цвет текста*/
+	font-size: 48px;/*размер текста*/
+	font-weight: 400;/*ширина текта*/
+	margin: 10px 0;/*внешние отступы*/
+}
+hr{
+	width: 100%;/*ширина*/
+	border: 5px solid #45015d;/*внешние отступы*/
+	border-radius: 7px;/*закругление углов*/
+	margin: 20px 0;/*внешние отступы*/
+}
+.images img{
+	width: 45%;/*ширина*/
+	border-radius: 10px;/*закругление углов*/
+	margin: 5px;/*внешние отступы*/
+	opacity: 0.5;/*прозрачность*/
+	transition: 1s;/*при наводке курсора на надпись цвет медленно меняется */
+}
+.images img:hover{
+	opacity: 1;/*прозрачность*/
+}
+.member{
+	padding: 8px;
+	width: 30%;
+	display: inline-block;
+	box-sizing: border-box;
+}
+.member img{
+	filter: grayscale(30%);
+	border-radius: 10px;
+	width: 100%;
+}
+.member .description{
+	background-color: #f1f1f1;
+	border-radius: 10px;
+	padding: 2px 16px 5px;
+}
+.member .position{
+	color: grey;
+}
+.tariff{
+	width: 49%;
+	padding: 0 8px;
+	min-width: 200px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	box-sizing: border-box;
+}
+.tariff ul{
+	color: black;
+	padding: 0;
+	margin: 0;
+	background-color: #f1f1f1;
+	border-radius: 10px;
+}
+.tariff li{
+	list-style: none;
+	border-bottom: 1px solid #ddd;
+	border-radius: 10px;
+	padding: 16px 0;
+}
+.tariff .tariff-name{
+	color: #fff;
+	background-color: #45015d;
+	font-size: 24px;
+	padding: 32px 0;
+}
+.tariff .price{
+	font-size: 30px;
+	font-weight: 400;
+}
+.tariff .period{
+	opacity: 0.7;
+}
+.tariff button{
+	color: #45015d;
+	background-color: #fff;
+	border-radius: 20px;
+	padding: 15px 20px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 16px;
+}
+.tariff button:hover{
+	color: #fff;
+	background-color: #45015d;
+}
+.pro .tariff-name{
+	background-color: #f44336;
+}
+.pro button{
+	background-color: #f44336;
+	color: white;
+}
+#contact input{
+border: 1px solid #ccc;
+outline: none;
+padding: 8px;
+display: block;
+width: 100%;
+box-sizing: border-box;
+font-size: 16px;
+}
+#contact button{
+	border: none;
+	outline: none;
+	color: #fff;
+	background-color: #45015d;
+	border-radius: 10px;
+	padding: 12px 24px;
+	display: block;
+	width: 100%;
+	cursor: pointer;
+	font-size: 16px;
+}
+#contact button:hover{
+	color: #000;
+	background-color: #ccc;
+}
+#footer{
+	padding: 32px 58px;
+	background-color: #f1f1f1;
+	text-align: right;
+	margin-top: 30px;
+}
+#footer a{
+	color: black;
+}
